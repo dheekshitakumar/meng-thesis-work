@@ -1,0 +1,13 @@
+filename,df,dam_df,degradationpen,gamma,eff,flag,greedymax,greedymin,greedydeg,epochs,C
+1week.csv,./data/RTMPrices2019_week.csv,./data/DAMPower2019.csv,20000,0.95,0.9,1,0.8,0.01,3,3000,100
+1week_2.csv,./data/RTMPrices2019_week.csv,./data/DAMPower2019.csv,0,0.95,0.9,1,0.8,0.01,3,3000,100
+1week_workoff.csv,./data/RTMPrices2019_week.csv,./data/DAMPower2019.csv,100000,0.95,0.9,1,0.8,0.01,3,3000,1000
+1week_workoff2.csv,./data/RTMPrices2019_week.csv,./data/DAMPower2019.csv,400000,0.95,0.9,1,0.8,0.01,3,3000,1000
+fixdeg_1.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,20000,0.9999,0.9,1,0.8,0.001,3,10000,1000
+noreset_1.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,20000,0.9999,0.9,1,0.8,0.001,3,10000,1000
+noreset_2.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,0,0.9999,0.9,1,0.8,0.001,3,10000,1000
+fix_deg_2.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,0,0.9999,0.9,1,0.8,0.001,3,10000,1000
+fix_deg_3.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,0,0.95,0.9,1,0.8,0.001,3,3000,100
+fix_deg_4.csv,./data/RTMPrices2019_3days.csv,./data/DAMPower2019.csv,20000,0.95,0.9,1,0.8,0.001,3,3000,100
+fix_deg_5.csv,./data/RTMPrices2019_summer3days.csv,./data/DAMPower2019_0k_summer.csv,0,0.95,0.9,1,0.8,0.001,3,3000,100
+fix_deg_6.csv,./data/RTMPrices2019_summer3days.csv,./data/DAMPower2019_0k_summer.csv,20000,0.95,0.9,1,0.8,0.001,3,3000,100
